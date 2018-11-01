@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Header from "./Components/Header";
+import Navbar from "./Components/Navbar";
 import MyRoutes from './Config/Routes';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <Header />
+      <Navbar />
         { MyRoutes }
       </div>
     );
